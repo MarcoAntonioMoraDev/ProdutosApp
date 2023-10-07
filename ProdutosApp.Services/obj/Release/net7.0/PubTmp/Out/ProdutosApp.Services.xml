@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProdutosApp.Services</name>
+    </assembly>
+    <members>
+        <member name="M:ProdutosApp.Services.Controllers.ProdutosController.Post(ProdutosApp.Services.Models.ProdutosPostModel)">
+            <summary>
+            Serviço para cadastro de produtos.
+            </summary>
+        </member>
+        <member name="M:ProdutosApp.Services.Controllers.ProdutosController.Put(ProdutosApp.Services.Models.ProdutosPutModel)">
+            <summary>
+            Serviço para edição de produtos.
+            </summary>
+        </member>
+        <member name="M:ProdutosApp.Services.Controllers.ProdutosController.Delete(System.Guid)">
+            <summary>
+            Serviço para exclusão de produtos.
+            </summary>
+        </member>
+        <member name="M:ProdutosApp.Services.Controllers.ProdutosController.GetAll">
+            <summary>
+            Serviço para consulta de produtos.
+            </summary>
+        </member>
+        <member name="M:ProdutosApp.Services.Controllers.ProdutosController.GetById(System.Guid)">
+            <summary>
+            Serviço para consulta de 1 produto através do ID (código identificador).
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Extensions.CorsConfigExtension">
+            <summary>
+            Classe de extensão para configurarmos as permissões 
+            de acesso da API para outros sistemas (clientes)
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Extensions.DependencyInjectionExtension">
+            <summary>
+            Classe de extensão para configurarmos as injeções
+            de dependência do sistema (interfaces/classes)
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Extensions.JwtBearerExtension">
+            <summary>
+            Classe de extensão para configurarmos a forma de autenticação
+            do projeto, neste caso, por meio do JWT - JSON WEB TOKENS
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Extensions.SwaggerExtension">
+            <summary>
+            Classe de extensão para configurarmos a documentação
+            da API gerada pela biblioteca Swagger
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Mappings.AutoMapperConfig">
+            <summary>
+            Configuração dos mapeamentos feitos pelo AutoMapper
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Models.ProdutosGetModel">
+            <summary>
+            Modelo de dados para a requisição do serviço de consulta de produtos
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Models.ProdutosPostModel">
+            <summary>
+            Modelo de dados para a requisição do serviço de cadastro de produtos
+            </summary>
+        </member>
+        <member name="T:ProdutosApp.Services.Models.ProdutosPutModel">
+            <summary>
+            Modelo de dados para a requisição do serviço de edição de produtos
+            </summary>
+        </member>
+    </members>
+</doc>
